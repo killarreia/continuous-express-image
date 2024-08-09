@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Check out the codebase
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     
     - name: Build the Docker image
       run: docker build . -t ruicorreia197/continuous_express_image
